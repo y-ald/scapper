@@ -1,0 +1,27 @@
+# Reddit users to scrape
+# This file serves as the root input for the scraping process
+
+reddit_users:
+  - Dr_Alzamon
+  # - Drakoniid
+  # - atwitsend1996
+  # - Flashy_Radish_5052
+  # - JefftheIandshark
+  # - Thisisabruh_moment
+  # - cjhud1515
+  # - XxReager
+  # - capital_of_kyoka
+  # - xkarisma
+  # - ghostidiny
+  # - Prime_Nostalgia
+
+# Date range for scraping (YYYY-MM-DD format)
+date_range:
+  since: "2025-04-10"
+  until: "2025-04-28"
+
+# Scraping parameters
+parameters:
+  min_posts_per_author: 2
+  min_date_span_days: 14
+  delay_seconds: 40
